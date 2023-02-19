@@ -6,11 +6,11 @@ public class Squirrels extends Animal {
             super(name);
         }
 
-//        public void goOut() {
-//            if (Objects.equals(this.name, "Стрелка")) {
-//                cage = "вне вольера";
-//                System.out.println("Стрелка сбежала");
-//            }
-//        }
+        public void goOut() {
+            if (this.name == "Стрелка") {
+                cage = "вне вольера";
+                System.out.println("Стрелка сбежала");
+            }
+        }
 
     }
